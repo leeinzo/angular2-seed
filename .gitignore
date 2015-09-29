@@ -1,0 +1,8 @@
+##NODE
+**/node_modules/**
+
+##JSPM
+**/jspm_packages/**
+
+##Typings
+typings/**
