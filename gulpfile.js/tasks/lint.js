@@ -1,7 +1,7 @@
 'use strict';
 
-var gulp = require('gulp');
-var tslint = require('gulp-tslint');
+var gulp = require('gulp'),
+    tslint = require('gulp-tslint');
 
 gulp.task('ts-lint', function(){
       return gulp.src('./src/app/**/*.ts')

@@ -14,11 +14,5 @@
 var gulp = require('gulp');
 var requireDir = require('require-dir');
 
-// Specify paths & globbing patterns for tasks.
-// TODO
-
-// Require all tasks in the 'gulp/tasks', including subfolders.
-requireDir('./gulp/tasks', { recurse: true });
-
-// Default task; start local server & watch for changes.
-gulp.task('default', ['lint', 'jspm']);
+// Require all tasks in the 'tasks', including subfolders.
+requireDir('./tasks', { recurse: true });
