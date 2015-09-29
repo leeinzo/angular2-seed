@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/StepChangeCharity/angular2-seed",
   "devDependencies": {
-    "jspm": "^0.16.10"
+    "gulp": "^3.9.0",
+    "gulp-html-replace": "^1.5.4",
+    "gulp-tslint": "^3.3.0",
+    "jspm": "^0.16.10",
+    "require-dir": "^0.3.0"
   },
   "jspm": {
     "directories": {
