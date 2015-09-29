@@ -5,7 +5,7 @@ Starting point for a blank ng2 application
 
 1. Install global dependencies **if necessary** from a command line window
   
-        npm install -g live-server tsd
+        npm install -g live-server tsd jspm
 
 2. Install project dependencies
 
