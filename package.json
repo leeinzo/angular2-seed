@@ -4,7 +4,8 @@
   "description": "Starting point for a blank ng2 application",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --port=9090 ./src"
+    "start": "live-server --port=9090 ./src",
+    "postinstall": "jspm install && tsd reinstall -s"
   },
   "repository": {
     "type": "git",
