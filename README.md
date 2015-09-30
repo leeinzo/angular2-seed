@@ -26,6 +26,7 @@ Starting point for learning  with a blank angular2 application
 * reflect-metadata
 * traceur-runtime
 * zone.js
+* typescript
 
 ### Build and Dependecy Management
 * jspm
