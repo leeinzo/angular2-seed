@@ -1,8 +1,5 @@
 'use strict';
 
-var gulp = require('gulp'),
-	gulpSequence = require('gulp-sequence');
+var gulp = require('gulp');
 	
-gulp.task('default', 
-	gulpSequence(['clean', 'lint'], ['javascript', 'html'])
-);
+gulp.task('default', ['development']);

@@ -9,5 +9,7 @@ gulp.task('ts-lint', function(){
         .pipe(tslint.report('verbose'));
 });
 
+// TODO: add other lint style etc.
+
 // Lint everything
 gulp.task('lint', ['ts-lint']);

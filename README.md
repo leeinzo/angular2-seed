@@ -1,16 +1,37 @@
 # Angular2 Seed Project
-Starting point for a blank ng2 application
+Starting point for learning  with a blank angular2 application
 
 ## Usage
 
-1. Install global dependencies **if necessary** from a command line window
-  
-        npm install -g live-server tsd jspm
+1. Install project 
 
-2. Install project dependencies
-
-        npm install
+        npm run setup
 		
-3. Launch server
+2. To develop and view in browser with live reload
 
-		npm start
+		npm run development
+		
+3. To build test the production version in browser
+
+		npm run production
+		
+4. To build the production version only
+
+		npm run build
+
+## Technology Stack
+
+### Application
+* angular2 alpha 37
+* reflect-metadata
+* traceur-runtime
+* zone.js
+
+### Build and Dependecy Management
+* jspm
+* gulp
+* live-server
+		
+## Info
+
+* Has integrated tasks if using Visual Studio Code

@@ -6,3 +6,6 @@
 
 ##Typings
 typings/**
+
+##Distribution Code
+dist/**

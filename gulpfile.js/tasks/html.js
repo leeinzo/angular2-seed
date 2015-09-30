@@ -2,7 +2,7 @@
 
 var gulp = require('gulp'),
 	useref = require('gulp-useref'),
-	htmlmin      = require('gulp-htmlmin');
+	htmlmin = require('gulp-htmlmin');
 	
 gulp.task('html', function () {
     return gulp.src('src/index.html')
