@@ -29,7 +29,7 @@ Starting point for learning  with a blank angular2 application
 
 ### Build and Dependecy Management
 * jspm
-* gulp
+* gulp + plugins
 * live-server
 		
 ## Info
