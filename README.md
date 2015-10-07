@@ -41,5 +41,4 @@ Starting point for learning  with a blank angular2 application
 
 2. Type run and select "Task: Run Task"
 
-3. Select from "build", "development", "production" or "setup"
-
+3. Select from "build", "development", "production" or "setup" (relates to usage description above)
