@@ -36,3 +36,10 @@ Starting point for learning  with a blank angular2 application
 ## Info
 
 * Has integrated tasks if using Visual Studio Code
+
+1. Press ctrl + shift + p
+
+2. Type run and select "Task: Run Task"
+
+3. Select from "build", "development", "production" or "setup"
+
