@@ -22,9 +22,9 @@ Starting point for learning  with a blank angular2 application
 ## Technology Stack
 
 ### Application
-* angular2 alpha 37
+* angular2 alpha 39
 * reflect-metadata
-* traceur-runtime
+* es6-shim
 * zone.js
 * typescript
 

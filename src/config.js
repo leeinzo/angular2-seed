@@ -20,10 +20,9 @@ System.config({
 
   map: {
     "@reactivex/rxjs": "npm:@reactivex/rxjs@5.0.0-alpha.2",
-    "angular2": "npm:angular2@2.0.0-alpha.38",
+    "angular2": "npm:angular2@2.0.0-alpha.39",
     "es6-shim": "github:es-shims/es6-shim@0.33.6",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
-    "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91",
     "typescript": "npm:typescript@1.6.2",
     "zone.js": "npm:zone.js@0.5.8",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -63,7 +62,7 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:angular2@2.0.0-alpha.38": {
+    "npm:angular2@2.0.0-alpha.39": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
