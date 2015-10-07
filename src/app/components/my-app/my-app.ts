@@ -14,7 +14,7 @@ import { HomeComponent } from 'app/components/home/home';
 	directives : [ROUTER_DIRECTIVES]
 })
 @RouteConfig([
-  { path: '/', redirectTo: '/home' },  
-  { path: '/home', component: HomeComponent, as: 'home' }
+  { path: '/', redirectTo: '/Home' },  
+  { path: '/Home', component: HomeComponent, as: 'Home' }
 ])
 export class MyAppComponent {}
