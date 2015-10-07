@@ -1,5 +1,6 @@
 import 'zone.js';
 import 'reflect-metadata';
+import 'es6-shim';
 
 import { bootstrap, bind } from 'angular2/angular2';
 import { ROUTER_BINDINGS, LocationStrategy, HashLocationStrategy } from 'angular2/router';

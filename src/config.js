@@ -2,6 +2,7 @@ System.config({
   defaultJSExtensions: true,
   transpiler: "typescript",
   typescriptOptions: {
+    "module": "commonjs",
     "emitDecoratorMetadata": true
   },
   paths: {
@@ -19,6 +20,7 @@ System.config({
 
   map: {
     "angular2": "npm:angular2@2.0.0-alpha.37",
+    "es6-shim": "github:es-shims/es6-shim@0.33.6",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91",
     "typescript": "npm:typescript@1.6.2",
