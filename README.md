@@ -22,7 +22,7 @@ Starting point for learning  with a blank angular2 application
 ## Technology Stack
 
 ### Application
-* angular 2.0.0 alpha 42
+* angular 2.0.0 alpha 44
 * reflect-metadata
 * es6-shim
 * zone.js

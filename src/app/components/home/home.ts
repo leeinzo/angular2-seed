@@ -17,7 +17,7 @@ import { Component, View } from 'angular2/angular2';
 	<h2>Technology Stack</h2>
 	<h3>Application</h3>
 	<ul>
-		<li>angular 2.0.0 alpha 42</li>
+		<li>angular 2.0.0 alpha 44</li>
 		<li>reflect-metadata</li>
 		<li>es6-shim</li>
 		<li>zone.js</li>
