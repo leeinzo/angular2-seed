@@ -1,12 +1,18 @@
 'use strict';
 
 var gulp = require('gulp'),
-    tslint = require('gulp-tslint');
+    tslint = require('gulp-tslint'),
+    stylish = require('gulp-tslint-stylish');
 
 gulp.task('ts-lint', function(){
-      return gulp.src('./src/app/**/*.ts')
+      return gulp.src(['./**/*.ts', '!./node_modules/**', '!./src/jspm_packages/**', '!./typings/**'])
         .pipe(tslint())
-        .pipe(tslint.report('verbose'));
+        .pipe(tslint.report(stylish, {
+            emitError: true,
+            sort: true,
+            bell: true,
+            fullPath: true
+        }));
 });
 
 // TODO: add other lint style etc.

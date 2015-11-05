@@ -1,20 +1,26 @@
 System.config({
   defaultJSExtensions: true,
-  transpiler: "typescript",
-  typescriptOptions: {
-    "module": "commonjs",
-    "emitDecoratorMetadata": true
-  },
+  transpiler: false,
   paths: {
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*",
     "bootstrap": "app"
   },
+  
+  typescriptOptions: {
+    "typeCheck": true,
+    "tsconfig": true
+  },
 
   packages: {
     "app": {
       "main": "bootstrap.ts",
-      "defaultExtension": "ts"
+      "defaultExtension": "ts",
+      "meta": {
+        "*.ts": {
+          "loader": "ts"
+        }
+      }
     }
   },
 
@@ -22,8 +28,12 @@ System.config({
     "angular2": "npm:angular2@2.0.0-alpha.45",
     "es6-shim": "github:es-shims/es6-shim@0.33.6",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
+    "ts": "github:frankwallis/plugin-typescript@2.2.0",
     "typescript": "npm:typescript@1.6.2",
     "zone.js": "npm:zone.js@0.5.8",
+    "github:frankwallis/plugin-typescript@2.2.0": {
+      "typescript": "npm:typescript@1.6.2"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },

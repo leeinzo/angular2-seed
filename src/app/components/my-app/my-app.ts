@@ -1,11 +1,12 @@
+/// <reference path="../../../typings/tsd.d.ts" />
+
 import { Component, View } from 'angular2/angular2';
 import { ROUTER_DIRECTIVES, RouteConfig } from 'angular2/router';
 
 import { HomeComponent } from 'app/components/home/home';
 
 @Component({
-    selector: 'my-app',
-    
+	selector: 'my-app'
 })
 @View({
 	template: `
@@ -14,7 +15,7 @@ import { HomeComponent } from 'app/components/home/home';
 	directives : [ROUTER_DIRECTIVES]
 })
 @RouteConfig([
-  { path: '/', redirectTo: '/Home' },  
-  { path: '/Home', component: HomeComponent, as: 'Home' }
+	{ path: '/', redirectTo: '/Home' },
+	{ path: '/Home', component: HomeComponent, as: 'Home' }
 ])
 export class MyAppComponent {}
