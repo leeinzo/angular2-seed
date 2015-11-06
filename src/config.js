@@ -1,15 +1,14 @@
 System.config({
   defaultJSExtensions: true,
-  transpiler: false,
+  transpiler: "traceur",
+  typescriptOptions: {
+    "typeCheck": true,
+    "tsconfig": true
+  },
   paths: {
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*",
     "bootstrap": "app"
-  },
-  
-  typescriptOptions: {
-    "typeCheck": true,
-    "tsconfig": true
   },
 
   packages: {
