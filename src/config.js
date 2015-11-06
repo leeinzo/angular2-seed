@@ -1,6 +1,6 @@
 System.config({
   defaultJSExtensions: true,
-  transpiler: "traceur",
+  transpiler: false,
   typescriptOptions: {
     "typeCheck": true,
     "tsconfig": true
@@ -10,7 +10,6 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "bootstrap": "app"
   },
-
   packages: {
     "app": {
       "main": "bootstrap.ts",
@@ -22,7 +21,6 @@ System.config({
       }
     }
   },
-
   map: {
     "angular2": "npm:angular2@2.0.0-alpha.45",
     "es6-shim": "github:es-shims/es6-shim@0.33.6",
